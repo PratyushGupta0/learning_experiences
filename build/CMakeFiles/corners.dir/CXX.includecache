@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pratyush/Desktop/cv2/corners.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+string
+-
+numeric
+-
+
