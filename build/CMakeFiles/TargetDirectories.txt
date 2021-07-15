@@ -1,5 +1,0 @@
-/home/pratyush/Desktop/cv2/build/CMakeFiles/rebuild_cache.dir
-/home/pratyush/Desktop/cv2/build/CMakeFiles/corners.dir
-/home/pratyush/Desktop/cv2/build/CMakeFiles/edit_cache.dir
-/home/pratyush/Desktop/cv2/build/CMakeFiles/basic.dir
-/home/pratyush/Desktop/cv2/build/CMakeFiles/filters.dir
