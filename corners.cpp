@@ -13,9 +13,7 @@ const double epsilon=1;
 
 int main() {
 
-    //std::string image_path = "/home/pratyush/Desktop/CV/frame.png";
-    //std::string image_path = "/home/pratyush/Desktop/CV/tilt.png";
-    std::string image_path = "/home/pratyush/Desktop/CV/pic5.png";
+    std::string image_path = "/home/jaya/Github/learning_experiences/pic4.png";
     cv::Mat img,thresh,corn;
     img = cv::imread(image_path, CV_LOAD_IMAGE_ANYCOLOR);
     if(img.empty()) 
@@ -36,9 +34,8 @@ int main() {
     cv::Mat S = channels[1];
     cv::Mat V = channels[2];
     cv::GaussianBlur(S, S, cv::Size(15,15), 0, 0);
-    cv::Mat grey,dst,detected_edges;
+    cv::Mat grey,detected_edges;
     cv::cvtColor(img, grey, CV_BGR2GRAY);
-    dst.create( img.size(), img.type() );
     cv::imshow("S channel", S);
     cv::Mat canny_output;
     cv::Canny( S, canny_output, lowThreshold, lowThreshold*ratio, kernel_size );
@@ -49,13 +46,12 @@ int main() {
 
     std::vector< std::vector <cv::Point> > contours; // Vector for storing contour
 
-    std::vector< cv::Vec4i > hierarchy;
-    cv::findContours( canny_output, contours, hierarchy,CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE );
+    cv::findContours( canny_output, contours,CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE );
     if(contours.size()==0)
     {
         cv::threshold(S,S,20,255,0);
         cv::Canny(S,canny_output,lowThreshold,lowThreshold*ratio,kernel_size);
-        cv::findContours( canny_output, contours, hierarchy,CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE );
+        cv::findContours( canny_output, contours,CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE );
     }
     std::vector< std::vector<cv::Point> > hull(contours.size());
 	for(int i = 0; i < contours.size(); i++)
@@ -64,7 +60,6 @@ int main() {
     double maxAreaContourId = 0;
     std::cout<<contours.size()<<std::endl;
     for( int i = 0; i< contours.size(); i++ ) // iterate through each contour.
-    //for( int i = 0; i< hull.size(); i++ )
     {
         double newArea=cv::contourArea(contours[i]);
         double convexArea=cv::contourArea(hull[i]);
