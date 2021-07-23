@@ -10,7 +10,7 @@
 fms::fms()
 {
 	// All lights are initially turned off
-	currentState = &no_movement::getInstance();
+	currentState = &no_movement::get_Instance();
 }
 
 void fms::setState(fms_state& newState)
