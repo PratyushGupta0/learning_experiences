@@ -40,22 +40,29 @@ std::vector<double> coord_wrt_bot(double center_x,double center_y, double distan
 
 
 // int main(){
-tf::Vector3 transform_vector(double vx,double vy,double vz, double qx,double qy,double qz, double qw)
+tf2::Vector3 transform_vector(double vx,double vy,double vz, double qx,double qy,double qz, double qw)
 {
  
 
-  tf::Quaternion q2(qx, qy, qz, qw); // x, y, z, w in order
+  tf2::Quaternion q; // x, y, z, w in order
+  q[0]=qx;
+  q[1]=qy;
+  q[2]=qz;
+  q[3]=qw;
 
-  tf::Vector3 original(vx,vy,vz);
+  tf2::Vector3 original;
+  original[0]=vx;
+  original[1]=vy;
+  original[2]=vz;
 
-  tf::Vector3 axis = q.getAxis(); // Get the rotation axis of the quaternion
+  tf2::Vector3 axis = q.getAxis(); // Get the rotation axis of the quaternion
   double angle = q.getAngle(); //Get the rotation angle of the quaternion
 
- 
+  
   return original.rotate(q.getAxis(), q.getAngle());
 }
-// int main()
-// {
+int main()
+{
     
-//     return 0;
-// }
+    return 0;
+}
