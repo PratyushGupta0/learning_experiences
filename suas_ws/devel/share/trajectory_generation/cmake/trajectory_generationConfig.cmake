@@ -1,1 +1,0 @@
-/home/pratyush/suas_ws/devel/.private/trajectory_generation/share/trajectory_generation/cmake/trajectory_generationConfig.cmake

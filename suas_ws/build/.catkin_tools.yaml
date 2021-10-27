@@ -1,6 +1,0 @@
-devel_space: /home/pratyush/suas_ws/devel
-install: false
-install_space: /home/pratyush/suas_ws/install
-profile: default
-source_space: /home/pratyush/suas_ws/src
-workspace: /home/pratyush/suas_ws

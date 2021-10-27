@@ -1,0 +1,12 @@
+x_way: 10.0
+y_way: 10.0
+z_way: 5.0
+centre_x: 5.0
+centre_y: 5.0
+radius: 1.0
+launch_position_x: 0.0
+launch_position_y: 0.0
+launch_position_z: 5.0
+v_max: 10.0
+a_max: 5.0
+distance_: 1.0

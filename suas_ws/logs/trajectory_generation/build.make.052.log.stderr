@@ -1,7 +1,0 @@
-[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:[m[K In member function ‘[01m[Kvoid ariitk::trajectory_generation::DubinsTrajectory::generateTrajectory()[m[K’:
-[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:102:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kvisualization_msgs::MarkerArray {aka visualization_msgs::MarkerArray_<std::allocator<void> >}[m[K’ and ‘[01m[Kint[m[K’)
-         std::cout << markers_[01;31m[K[[m[Ki] << " ";
-                              [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/trajectory_generation.dir/src/dubins_trajectory.cpp.o] Error 1
-make[1]: *** [CMakeFiles/trajectory_generation.dir/all] Error 2
-make: *** [all] Error 2
