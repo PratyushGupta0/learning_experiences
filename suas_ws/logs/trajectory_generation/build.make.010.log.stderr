@@ -1,0 +1,7 @@
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_generator/trajectory_generation.hpp: No such file or directory
+ #include [01;31m[K<trajectory_generator/trajectory_generation.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/trajectory_generation.dir/src/dubins_trajectory.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trajectory_generation.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,33 @@
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:[m[K In member function ‘[01m[Kvoid ariitk::trajectory_generation::DubinsTrajectory::computePoints()[m[K’:
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:58:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+     std::cout << "Check1" << [01;31m[Kendl[m[K;
+                              [01;31m[K^~~~[m[K
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:58:30:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/istream:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:80[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/include/trajectory_generation/dubins_trajectory.hpp:4[m[K,
+                 from [01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:1[m[K:
+[01m[K/usr/include/c++/7/ostream:590:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::endl[m[K’
+     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+     [01;36m[K^~~~[m[K
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:[m[K In member function ‘[01m[Kvoid ariitk::trajectory_generation::DubinsTrajectory::generateTrajectory()[m[K’:
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:82:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+     std::cout << "Check4" << [01;31m[Kendl[m[K;
+                              [01;31m[K^~~~[m[K
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:82:30:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/istream:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/7/complex:45[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:80[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/include/trajectory_generation/dubins_trajectory.hpp:4[m[K,
+                 from [01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:1[m[K:
+[01m[K/usr/include/c++/7/ostream:590:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::endl[m[K’
+     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+     [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/trajectory_generation.dir/src/dubins_trajectory.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trajectory_generation.dir/all] Error 2
+make: *** [all] Error 2

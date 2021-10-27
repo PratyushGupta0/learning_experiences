@@ -1,0 +1,62 @@
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target mav_planning_msgs_generate_messages_py
+[  0%] Built target mav_planning_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target mav_planning_msgs_generate_messages_lisp
+[  0%] Built target mav_planning_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target mav_planning_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_cpp
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_generation[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/trajectory_generation.dir/src/dubins_trajectory.cpp.o[0m
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:[m[K In member function ‘[01m[Kvoid ariitk::trajectory_generation::DubinsTrajectory::generateTrajectory()[m[K’:
+[01m[K/home/pratyush/suas_ws/src/SUAS2022/suas_trajectory_estimation/trajectory_generation/src/dubins_trajectory.cpp:102:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kvisualization_msgs::MarkerArray {aka visualization_msgs::MarkerArray_<std::allocator<void> >}[m[K’ and ‘[01m[Kint[m[K’)
+         std::cout << markers_[01;31m[K[[m[Ki] << " ";
+                              [01;31m[K^[m[K
+CMakeFiles/trajectory_generation.dir/build.make:62: recipe for target 'CMakeFiles/trajectory_generation.dir/src/dubins_trajectory.cpp.o' failed
+make[2]: *** [CMakeFiles/trajectory_generation.dir/src/dubins_trajectory.cpp.o] Error 1
+CMakeFiles/Makefile2:203: recipe for target 'CMakeFiles/trajectory_generation.dir/all' failed
+make[1]: *** [CMakeFiles/trajectory_generation.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

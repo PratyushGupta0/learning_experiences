@@ -1,0 +1,1 @@
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e7ffc.dir/testCCompiler.c.o  -o cmTC_e7ffc 
