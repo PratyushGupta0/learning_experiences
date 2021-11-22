@@ -1,3 +1,3 @@
 # learning_experiences
-Basically random fuckery
-Check the master branch, I accidentally created the fucker, and can't be bothered to rectify the error.
+Basically a lot of random work on stuff. It was never meant to be public, but here we are.
+Check the master branch, I accidentally created the thing, and repeatedly forget to rectify the error :).
